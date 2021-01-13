@@ -13,7 +13,7 @@ func main(){
 	//scores[7] = 669
 	scores[0]=1
 	scores[1]=1
-	for i:=0;i<15;i++{
+	for i:=0;i<17;i++{
 		scores[i+2]=scores[i]+scores[i+1]
 
 		fmt.Println(scores[i])
